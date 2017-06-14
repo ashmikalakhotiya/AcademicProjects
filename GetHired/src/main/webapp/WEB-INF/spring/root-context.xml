@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="companyValidator" class="com.myneu.ashmika.RegisterCompanyValidator"></bean>	
+	<bean id="candidateValidator" class="com.myneu.ashmika.RegisterCandidateValidator"></bean>	
+	<bean id="addJobValidator" class="com.myneu.ashmika.AddJobValidator"></bean>
+	<bean id="addeducationvalidator" class="com.myneu.ashmika.AddEducationValidator"></bean>	
+	<bean id="addexperiencevalidator" class="com.myneu.ashmika.AddExperienceValidator"></bean>
+	<bean id="addskillvalidator" class="com.myneu.ashmika.AddSkillValidator"></bean>
+	
+	
+</beans>
